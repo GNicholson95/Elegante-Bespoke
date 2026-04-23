@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Footer from "./Footer";
+import venetianShowcaseImage from "../assets/gallery-venetian-detail-01.jpg";
 
 const Services = () => {
     const services = [
@@ -61,7 +62,7 @@ const Services = () => {
             <div className="services-section">
             <div className ="content">
             <div className="services-text">
-              <h2 className="sub-head-1">Fitted bespoke carpentry</h2>
+              <h2 className="sub-head-1">Bespoke carpentry</h2>
                 <h2 className="sub-head-2">Made for your space.</h2>
                 <div className="services-paragraph">
                     <p>
@@ -117,10 +118,14 @@ const Services = () => {
                     handcrafted to reflect light beautifully and enhance your interior design.
                   </p>
                 </div>
-                <div className="warranty-card">
-                  <span className="warranty-number">2</span>
-                  <h3>Year warranty</h3>
-                  <p>All our fires come with a warranty.</p>
+                <div className="accreditation-card">
+                  <img
+                    className="accreditation-badge"
+                    src={venetianShowcaseImage}
+                    alt="Venetian plaster detail finish"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
               </div>
             </section>

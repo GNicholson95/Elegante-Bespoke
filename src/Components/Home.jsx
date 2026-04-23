@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
-import mediaWallImage from "../assets/media-2.jpg";
-import fittedFurnitureImage from "../assets/home-page-2.jpeg";
-import venetianImage from "../assets/venetian-1.jpg";
-import plasterTextureImage from "../assets/venetian-4.jpg";
+import mediaWallImage from "../assets/gallery-media-wall-01.jpg";
+import mediaWallDetailImage from "../assets/gallery-media-wall-02.jpg";
+import mediaWallLoungeImage from "../assets/gallery-media-wall-03.jpg";
+import mediaWallFeatureImage from "../assets/gallery-media-wall-04.jpg";
+import mediaWallFireImage from "../assets/gallery-media-wall-05.jpg";
+import mediaWallTextureImage from "../assets/gallery-media-wall-06.jpg";
+import mediaWallWideImage from "../assets/gallery-media-wall-07.jpg";
+import fittedFurnitureImage from "../assets/gallery-fitted-furniture-01.jpeg";
+import venetianShowcaseImage from "../assets/gallery-venetian-detail-01.jpg";
+import venetianImage from "../assets/gallery-venetian-finish-02.jpg";
+import venetianFeatureImage from "../assets/hero-venetian-finish.jpg";
+import plasterTextureImage from "../assets/gallery-venetian-finish-03.jpg";
+import venetianGoldImage from "../assets/gallery-venetian-detail-02.jpg";
 
 const Home = () => {
   const testimonials = [
@@ -35,6 +44,30 @@ const Home = () => {
       alt: "Bespoke media wall installation",
     },
     {
+      src: mediaWallDetailImage,
+      alt: "Media wall shelving and lighting detail",
+    },
+    {
+      src: mediaWallLoungeImage,
+      alt: "Modern lounge media wall installation",
+    },
+    {
+      src: mediaWallFeatureImage,
+      alt: "Feature media wall with fireplace and shelving",
+    },
+    {
+      src: mediaWallFireImage,
+      alt: "Media wall fireplace and television detail",
+    },
+    {
+      src: mediaWallTextureImage,
+      alt: "Close-up plaster texture detail around a media wall",
+    },
+    {
+      src: mediaWallWideImage,
+      alt: "Wide view of a bespoke media wall installation",
+    },
+    {
       src: fittedFurnitureImage,
       alt: "Fitted bespoke furniture installation",
     },
@@ -43,8 +76,20 @@ const Home = () => {
       alt: "Venetian plaster feature finish",
     },
     {
+      src: venetianFeatureImage,
+      alt: "Venetian plaster hero wall finish",
+    },
+    {
       src: plasterTextureImage,
       alt: "Decorative plaster detail and texture",
+    },
+    {
+      src: venetianShowcaseImage,
+      alt: "Venetian plaster detail finish",
+    },
+    {
+      src: venetianGoldImage,
+      alt: "Decorative metallic Venetian plaster finish",
     },
   ];
 
@@ -54,8 +99,9 @@ const Home = () => {
       <div className="hero">
         <h1>
           <span className="hero-kicker">Elegante Bespoke</span>
-          <span className="hero-line">Fitted</span>
-          <span className="hero-line hero-line-accent">Bespoke Carpentry</span>
+          <span className="hero-line">Venetian</span>
+          <span className="hero-line hero-line-accent">Bespoke</span>
+          <span className="hero-line hero-line-accent">Carpentry</span>
         </h1>
         <div className="hero-actions">
           <a className="primary-button" href="mailto:elegantefinishes@outlook.com?subject=Free%20Quote%20Request">
@@ -124,10 +170,14 @@ const Home = () => {
             where the finish needs to feel as considered as the furniture around it.
           </p>
         </div>
-        <div className="warranty-card">
-          <span className="warranty-number">2</span>
-          <h3>Year warranty</h3>
-          <p>All our fires come with a warranty for added confidence in your finished media wall.</p>
+        <div className="accreditation-card">
+          <img
+            className="accreditation-badge"
+            src={venetianShowcaseImage}
+            alt="Venetian plaster feature finish"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </div>
     </section>

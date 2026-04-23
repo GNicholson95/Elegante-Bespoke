@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import mainLogo from '../../assets/Bespoke Transparent bckg .PNG';
+import mainLogo from '../../assets/logo-transparent.png';
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
