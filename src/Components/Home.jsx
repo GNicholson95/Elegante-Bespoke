@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import mediaWallImage from "../assets/media-wall-1.JPG";
+import fittedFurnitureImage from "../assets/home-page-2.jpeg";
+import venetianImage from "../assets/venetian-1.jpeg";
+import plasterTextureImage from "../assets/texture-plaster.jpg";
 
 const Home = () => {
   const testimonials = [
@@ -22,6 +26,25 @@ const Home = () => {
       quote:
         "Very professional team. Full communication all the way through, worked around the clock, and the finished result was to a very high standard.",
       name: "Media wall client",
+    },
+  ];
+
+  const galleryImages = [
+    {
+      src: mediaWallImage,
+      alt: "Bespoke media wall installation",
+    },
+    {
+      src: fittedFurnitureImage,
+      alt: "Fitted bespoke furniture installation",
+    },
+    {
+      src: venetianImage,
+      alt: "Venetian plaster feature finish",
+    },
+    {
+      src: plasterTextureImage,
+      alt: "Decorative plaster detail and texture",
     },
   ];
 
@@ -178,6 +201,31 @@ const Home = () => {
         <div className="cta-actions">
           <a className="primary-button" href="mailto:elegantefinishes@outlook.com">Email us</a>
           <a className="secondary-button" href="tel:07954176362">Call 07954 176 362</a>
+        </div>
+      </div>
+    </section>
+    <section className="home-gallery">
+      <div className="home-section-inner">
+        <div className="section-copy">
+          <span className="section-eyebrow">Latest work</span>
+          <h2>Recent projects</h2>
+          <p>
+            A snapshot of recent Elegante Bespoke work, from statement media walls to refined
+            finishes and fitted pieces built around the room.
+          </p>
+        </div>
+        <div className="home-gallery-grid">
+          {galleryImages.map((image) => (
+            <article className="gallery-card" key={image.alt}>
+              <img
+                className="gallery-image"
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+                decoding="async"
+              />
+            </article>
+          ))}
         </div>
       </div>
     </section>
