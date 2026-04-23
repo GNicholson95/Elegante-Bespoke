@@ -99,9 +99,9 @@ const Home = () => {
       <div className="hero">
         <h1>
           <span className="hero-kicker">Elegante Bespoke</span>
-          <span className="hero-line">Venetian</span>
-          <span className="hero-line hero-line-accent">Bespoke</span>
-          <span className="hero-line hero-line-accent">Carpentry</span>
+          {/* <span className="hero-line">Venetian &</span> */}
+          <span className="hero-line">Bespoke</span>
+          <span className="hero-line hero-line-accent">Interiors</span>
         </h1>
         <div className="hero-actions">
           <a className="primary-button" href="mailto:elegantefinishes@outlook.com?subject=Free%20Quote%20Request">
