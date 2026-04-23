@@ -1301,6 +1301,30 @@ html, body {
     min-width: auto;
   }
 
+  .service-highlight-panel h2 {
+    font-size: 0.98rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.4rem;
+  }
+
+  .service-highlight-panel p {
+    font-size: 0.92rem;
+    line-height: 1.62;
+    margin-bottom: 1rem;
+  }
+
+  .section-copy p,
+  .testimonial-card p,
+  .service-detail-card p,
+  .service-preview-card p,
+  .footer-description,
+  .footer-column p,
+  .footer-link,
+  .social-text {
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
   .sub-head-1,
   .sub-head-2 {
     font-size: 1.1rem;
@@ -1407,6 +1431,42 @@ html, body {
   .about-paragraph,
   .services-paragraph {
     font-size: 0.85rem;
+    line-height: 1.65;
+  }
+
+  .service-highlight-panel {
+    padding: 1rem;
+  }
+
+  .service-highlight-panel h2 {
+    font-size: 0.92rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.32rem;
+  }
+
+  .service-highlight-panel p {
+    font-size: 0.85rem;
+    line-height: 1.58;
+    margin-bottom: 0.85rem;
+  }
+
+  .section-copy p,
+  .testimonial-card p,
+  .testimonial-card span,
+  .service-detail-card p,
+  .service-preview-card p,
+  .footer-description,
+  .footer-column p,
+  .footer-link,
+  .social-text {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .service-preview-card h3,
+  .service-detail-card h3,
+  .footer-heading {
+    font-size: 1rem;
   }
 
   .sub-head-1,
