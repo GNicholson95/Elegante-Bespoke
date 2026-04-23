@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
-import mediaWallImage from "../assets/media-wall-1.JPG";
+import mediaWallImage from "../assets/media-2.jpg";
 import fittedFurnitureImage from "../assets/home-page-2.jpeg";
-import venetianImage from "../assets/venetian-1.jpeg";
-import plasterTextureImage from "../assets/texture-plaster.jpg";
+import venetianImage from "../assets/venetian-1.jpg";
+import plasterTextureImage from "../assets/venetian-4.jpg";
 
 const Home = () => {
   const testimonials = [
