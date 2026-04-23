@@ -1,8 +1,10 @@
-# React + Vite
+# Elegante Bespoke
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Elegante Bespoke is a React and Vite website for media walls, bespoke carpentry, fitted furniture, and Venetian plaster finishes.
 
-Currently, two official plugins are available:
+## Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `npm run dev` starts the local development server.
+- `npm run build` creates a production build.
+- `npm run preview` previews the production build locally.
+- `npm run lint` runs ESLint.

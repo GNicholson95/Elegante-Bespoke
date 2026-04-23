@@ -11,14 +11,14 @@ function SeoManager() {
   useEffect(() => {
     const metadata = {
       '/': {
-        title: 'STAG Systems | Security systems and smart homes',
+        title: 'Elegante Bespoke | Fitted bespoke carpentry',
         description:
-          'Professional CCTV, smart home integration, and Hikvision-certified security installation services from STAG Systems.',
+          'Made-to-measure media walls, bespoke carpentry, fitted furniture, wardrobes, storage, and Venetian plaster finishes from Elegante Bespoke.',
       },
       '/services': {
-        title: 'Services | STAG Systems',
+        title: 'Services | Elegante Bespoke',
         description:
-          'Explore residential security, smart home integration, and commercial CCTV installation services from STAG Systems.',
+          'Explore bespoke carpentry, media walls, fitted furniture, wardrobes, storage, utility rooms, and Venetian plaster finishes from Elegante Bespoke.',
       },
     };
 

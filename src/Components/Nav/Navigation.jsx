@@ -16,10 +16,10 @@ const Navigation = () => {
   return (
     <nav className="navbar" aria-label="Primary navigation">
       <div className="logo">
-        <Link to="/" onClick={closeMenu} aria-label="Go to STAG Systems home page">
+        <Link to="/" onClick={closeMenu} aria-label="Go to Elegante Bespoke home page">
           <img
             src={mainLogo}
-            alt="STAG Systems logo"
+            alt="Elegante Bespoke logo"
             className="logo-img"
             width="500"
             height="500"
@@ -44,7 +44,7 @@ const Navigation = () => {
       <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
         <li><Link to="/" onClick={closeMenu}>Home</Link></li>
         <li><Link to="/services" onClick={closeMenu}>Services</Link></li>
-        <li><a rel="noreferrer" target="_blank" href="mailto:ga.nicholson@outlook.com" onClick={closeMenu}>Contact</a></li>
+        <li><a rel="noreferrer" target="_blank" href="mailto:elegantefinishes@outlook.com" onClick={closeMenu}>Contact</a></li>
       </ul>
     </nav>
   );

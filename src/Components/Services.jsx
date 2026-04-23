@@ -1,9 +1,35 @@
 import { useEffect } from "react";
 import Footer from "./Footer";
-import smartHomeImage from "../assets/smart-home.jpg";
-import commercialCctvImage from "../assets/commercial-cctv.jpg";
 
 const Services = () => {
+    const services = [
+        {
+            title: "Wardrobes and Dressing Rooms",
+            copy:
+                "Custom-designed storage solutions that maximise space while reflecting your style. From walk-in dressing rooms to compact wardrobes, we create functional luxury.",
+        },
+        {
+            title: "Media Walls and Media Units",
+            copy:
+                "Tailored entertainment solutions that combine aesthetics and practicality. Perfect for showcasing your tech, decor, and lifestyle.",
+        },
+        {
+            title: "Bespoke Cabinetry and Fitted Furniture",
+            copy:
+                "Handmade furniture crafted to fit your exact space and taste. Ideal for kitchens, living areas, or any room that demands precision and personality.",
+        },
+        {
+            title: "Home Office, Study, and Utility Rooms",
+            copy:
+                "Smart, stylish solutions for work and everyday life. Optimise productivity and organisation without compromising on design.",
+        },
+        {
+            title: "Alcove Units and Storage Solutions",
+            copy:
+                "Clever, space-saving furniture that transforms awkward spaces into functional, beautiful features.",
+        },
+    ];
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -13,21 +39,21 @@ const Services = () => {
             <div className="services-head">
               <div className="services-head-inner">
                 <div className="services-head-title">
-                  <span className="section-eyebrow">STAG Systems</span>
+                  <span className="section-eyebrow">Elegante Bespoke</span>
                   <h1>Our services</h1>
                 </div>
                 <div className="services-head-copy">
                   <p>
-                    At STAG Systems, we provide professional security and smart home installations
-                    designed to be reliable, easy to use, and built to last.
+                    Every project we undertake is completely bespoke and made to measure, ensuring
+                    each piece is as unique as the client.
                   </p>
                   <p>
-                    From high-definition CCTV systems to fully integrated smart home setups, we
-                    deliver clean, high-quality installations tailored to your property.
+                    From sleek modern wardrobes to commercial fit-outs, we craft furniture and
+                    installations that seamlessly complement your home or business.
                   </p>
                   <p>
-                    Whether you&apos;re securing your home or upgrading your living space with smart
-                    technology, we make the process simple and hassle-free.
+                    Our focus is precision, clean finishes, useful storage, and a finished result
+                    that feels naturally built into the room.
                   </p>
                 </div>
               </div>
@@ -35,78 +61,69 @@ const Services = () => {
             <div className="services-section">
             <div className ="content">
             <div className="services-text">
-              <h2 className="sub-head-1">Residential.</h2>
-                <h2 className="sub-head-2">Security & Smart Living.</h2>
+              <h2 className="sub-head-1">Fitted bespoke carpentry</h2>
+                <h2 className="sub-head-2">Made for your space.</h2>
                 <div className="services-paragraph">
                     <p>
-            We provide tailored CCTV and security solutions designed to protect what matters most. 
-            Whether it’s a single-camera setup or a full property system, we install reliable, 
-            high-performance equipment with clean, professional finishes.
+            We design and build fitted furniture, bespoke carpentry, and media wall installations
+            that are measured around the exact proportions of your room.
           </p>
 
           <p>
-            Beyond security, we bring homes to life with smart technology — including lighting, 
-            alarms, cameras, and remote access systems — all seamlessly integrated and easy to use. 
-            Our focus is simple: clean installs, dependable systems, and a premium result every time.
+            Whether you need a statement entertainment wall, elegant wardrobe storage, clever
+            alcove units, or a practical home office, each piece is planned for daily use and
+            finished with care.
           </p>
                 </div>
             </div>
-            <div className="service-image-frame">
-            <img
-              className="content-image service-image"
-              src={smartHomeImage}
-              alt="Smart home installation"
-              width="3888"
-              height="2592"
-              loading="lazy"
-              decoding="async"
-              fetchPriority="low"
-            />
+            <div className="service-highlight-panel">
+              <h2>Core services</h2>
+              <p>Media walls, bespoke carpentry, fitted furniture, wardrobes, storage, and more.</p>
             </div>
             </div>
             </div>
 
             <div className="services-section-2">
-            <div className ="content">
-                 <div className="service-image-frame">
-                 <img
-                   className="content-image service-image"
-                   src={commercialCctvImage}
-                   alt="Commercial CCTV system"
-                   width="3464"
-                   height="2301"
-                   loading="lazy"
-                   decoding="async"
-                   fetchPriority="low"
-                 />
-                 </div>
-            <div className="services-text">
-                 <h2 className="sub-head-1">Commercial.</h2>
-            <h2 className="sub-head-2">Business Security Systems.</h2>
-                <div className="services-paragraph">
+              <div className="services-list-inner">
+                <div className="section-copy">
+                  <span className="section-eyebrow">Our services</span>
+                  <h2>Designed, built, and fitted</h2>
                   <p>
-                Secure your business with professional-grade CCTV systems built 
-                for reliability and performance in high-demand environments.
-              </p>
-
-              <p>
-                We install multi-camera systems with remote access, allowing you 
-                to monitor your premises from anywhere at any time.
-              </p>
-
-              <p>
-                Our solutions are ideal for retail spaces, offices, warehouses, 
-                and commercial properties where security and visibility are critical.
-              </p>
-
-              <p>
-                With clean installations and dependable systems, we help you 
-                protect your business without disruption.
-              </p>
+                    Every installation is tailored to the room, from the structure and storage to
+                    the finish, proportions, and final detailing.
+                  </p>
                 </div>
+                <div className="services-detail-grid">
+                  {services.map((service) => (
+                    <article className="service-detail-card" key={service.title}>
+                      <h3>{service.title}</h3>
+                      <p>{service.copy}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
             </div>
-            </div>
-            </div>
+            <section className="home-accreditation services-finish-section">
+              <div className="home-section-inner accreditation-layout">
+                <div className="accreditation-copy">
+                  <span className="section-eyebrow">Finishes</span>
+                  <h2>Venetian plaster finishes.</h2>
+                  <p>
+                    Transform your walls with luxurious Venetian plaster, creating a smooth,
+                    polished surface with depth and texture.
+                  </p>
+                  <p>
+                    Perfect for adding elegance and sophistication to any room, each finish is
+                    handcrafted to reflect light beautifully and enhance your interior design.
+                  </p>
+                </div>
+                <div className="warranty-card">
+                  <span className="warranty-number">2</span>
+                  <h3>Year warranty</h3>
+                  <p>All our fires come with a warranty.</p>
+                </div>
+              </div>
+            </section>
             <Footer/>
         </section>
     );
