@@ -1,4 +1,12 @@
 import { Link } from "react-router-dom";
+import {
+  FaEnvelope,
+  FaFacebookF,
+  FaGem,
+  FaHome,
+  FaInstagram,
+  FaPhone,
+} from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -11,7 +19,7 @@ const Footer = () => {
               {/* Grid column */}
               <div className="footer-column">
                 <h6 className="footer-heading">
-                  <i className="fas fa-gem footer-icon"></i>Elegante Bespoke
+                  <FaGem className="footer-icon" aria-hidden="true" />Elegante Bespoke
                 </h6>
                 <p className="footer-description">
                   Fitted bespoke carpentry, media walls, fitted furniture, and Venetian plaster
@@ -36,11 +44,11 @@ const Footer = () => {
               {/* Grid column */}
               <div className="footer-column">
                 <h6 className="footer-heading">Contact</h6>
-                <p><i className="fas fa-home footer-icon"></i> Nottingham, England</p>
+                <p><FaHome className="footer-icon" aria-hidden="true" /> Nottingham, England</p>
                 <a className="footer-link" href="mailto:elegantefinishes@outlook.com" aria-label="Email Elegante Bespoke">
-                  <i className="fas fa-envelope footer-icon"></i> elegantefinishes@outlook.com
+                  <FaEnvelope className="footer-icon" aria-hidden="true" /> elegantefinishes@outlook.com
                 </a>
-                <p><i className="fas fa-phone footer-icon"></i> 07954 176 362</p>
+                <p><FaPhone className="footer-icon" aria-hidden="true" /> 07954 176 362</p>
               </div>
             </div>
           </div>
@@ -50,10 +58,10 @@ const Footer = () => {
         <div className="footer-bottom">
           <section className="footer-social-media">
             <a className="social-btn" href="https://www.facebook.com/liam.smith.54" target="_blank" rel="noreferrer" role="button" aria-label="Visit Elegante Bespoke on Facebook">
-              <i className="fab fa-facebook-f"></i>
+              <FaFacebookF aria-hidden="true" />
             </a>
             <a className="social-btn" href="https://www.instagram.com/elegante.bespoke/" target="_blank" rel="noreferrer" role="button" aria-label="Visit Elegante Bespoke on Instagram">
-              <i className="fab fa-instagram"></i>
+              <FaInstagram aria-hidden="true" />
             </a>
             <div className="social-text">
               <span>Get connected with us on social networks:</span>

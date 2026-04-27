@@ -1620,7 +1620,9 @@ html, body {
   }
   
   .footer-icon {
+    display: inline-block;
     margin-right: 10px;
+    vertical-align: -0.125em;
   }
   
   .footer-link {
@@ -1650,6 +1652,9 @@ html, body {
   }
   
   .social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: transparent;
     border: 1px solid rgba(248, 249, 250, 0.35);
     border-radius: 0;
