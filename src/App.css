@@ -1094,7 +1094,7 @@ html, body {
   }
 
   .section-copy h2 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .home-gallery-grid {
@@ -1164,7 +1164,8 @@ html, body {
 
   .about-head p,
   .services-head p {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    line-height: 1.7;
   }
 
   .sub-head-1,
@@ -1189,7 +1190,8 @@ html, body {
 
   .about-paragraph,
   .services-paragraph {
-    font-size: 1rem;
+    font-size: 0.96rem;
+    line-height: 1.7;
   }
 }
 
@@ -1209,7 +1211,7 @@ html, body {
   }
 
   .section-copy {
-    margin-bottom: 2rem;
+    margin-bottom: 1.65rem;
   }
 
   .section-copy h2 {
@@ -1232,7 +1234,7 @@ html, body {
   .testimonial-card,
   .service-detail-card,
   .service-highlight-panel {
-    padding: 1.25rem;
+    padding: 1.1rem;
   }
 
   .primary-button,
@@ -1276,9 +1278,8 @@ html, body {
   }
 
   .hero {
-    padding: 0.75rem 1rem;
+    padding: 0.9rem 1rem;
     font-size: 1rem;
-    text-align: center;
   }
 
   .about-head h1,
@@ -1302,15 +1303,15 @@ html, body {
   }
 
   .service-highlight-panel h2 {
-    font-size: 0.98rem;
-    letter-spacing: 0.06em;
-    margin-bottom: 0.4rem;
+    font-size: 0.92rem;
+    letter-spacing: 0.045em;
+    margin-bottom: 0.32rem;
   }
 
   .service-highlight-panel p {
-    font-size: 0.92rem;
-    line-height: 1.62;
-    margin-bottom: 1rem;
+    font-size: 0.88rem;
+    line-height: 1.56;
+    margin-bottom: 0.8rem;
   }
 
   .section-copy p,
@@ -1327,7 +1328,7 @@ html, body {
 
   .sub-head-1,
   .sub-head-2 {
-    font-size: 1.1rem;
+    font-size: 1.02rem;
   }
 
   .sub-head-1 {
@@ -1361,8 +1362,8 @@ html, body {
 
 @media (max-width: 480px) {
   .home-accreditation {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 
   .accreditation-copy h2 {
@@ -1370,21 +1371,21 @@ html, body {
   }
 
   .home-services-preview {
-    padding-top: 2.5rem;
+    padding-top: 2.25rem;
   }
 
   .home-gallery {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 
   .home-testimonials {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 
   .home-cta {
-    padding-bottom: 2.5rem;
+    padding-bottom: 2.25rem;
   }
 
   .section-copy h2 {
@@ -1396,11 +1397,7 @@ html, body {
   }
 
   .home-container {
-    height: 50vh;
-  }
-
-  .hero h1 {
-    font-size: clamp(1rem, 4.5vw, 1.4rem);
+    height: 54vh;
   }
 
   .services-head,
@@ -1408,12 +1405,12 @@ html, body {
   .about-section,
   .services-section,
   .services-section-2 {
-    padding: 1rem 0.75rem;
+    padding: 1rem 0.9rem;
   }
 
   .about-text,
   .services-text {
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.85rem;
   }
 
   .about-section .content {
@@ -1430,24 +1427,24 @@ html, body {
   .services-head p,
   .about-paragraph,
   .services-paragraph {
-    font-size: 0.85rem;
-    line-height: 1.65;
+    font-size: 0.84rem;
+    line-height: 1.58;
   }
 
   .service-highlight-panel {
-    padding: 1rem;
+    padding: 0.95rem;
   }
 
   .service-highlight-panel h2 {
-    font-size: 0.92rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.32rem;
+    font-size: 0.88rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.28rem;
   }
 
   .service-highlight-panel p {
-    font-size: 0.85rem;
-    line-height: 1.58;
-    margin-bottom: 0.85rem;
+    font-size: 0.82rem;
+    line-height: 1.52;
+    margin-bottom: 0.72rem;
   }
 
   .section-copy p,
@@ -1466,7 +1463,7 @@ html, body {
   .service-preview-card h3,
   .service-detail-card h3,
   .footer-heading {
-    font-size: 1rem;
+    font-size: 0.96rem;
   }
 
   .sub-head-1,
@@ -1489,7 +1486,7 @@ html, body {
   }
 
   .nav-links a {
-    font-size: 1rem;
+    font-size: 0.96rem;
   }
 }
 
@@ -1816,7 +1813,7 @@ html, body {
     }
 
     .logo-img {
-        width: 180px;
+        width: 168px;
         padding: 0;
         margin: 0;
         height: auto;
@@ -1867,8 +1864,8 @@ html, body {
 
     /* Adjust the font size of the links in mobile view */
     .nav-links a {
-        font-size: 2rem;
-        padding: 1.5rem 2rem;
+        font-size: 1.5rem;
+        padding: 1.1rem 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1889,7 +1886,7 @@ html, body {
     .hamburger {
         display: flex;
         position: absolute; /* Ensure it's within the navbar */
-        right: 4rem; /* Space from right edge */
+        right: 1rem; /* Space from right edge */
         top: 50%;
         transform: translateY(-50%); /* Keep it vertically centered */
     }
