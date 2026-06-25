@@ -11,10 +11,19 @@ Elegante Bespoke is a React and Vite website for media walls, bespoke carpentry,
 
 ## Deployment
 
-The site is configured for GitHub Pages at:
+The site is configured for Hostinger at:
 
 https://elegantebespoke.co.uk/
 
-Deployment runs automatically from `.github/workflows/deploy.yml` whenever changes are pushed to `main`.
+Build the production files with:
 
-In GitHub, set **Settings > Pages > Build and deployment > Source** to **GitHub Actions**.
+```bash
+npm run build
+```
+
+Upload the contents of the `dist` folder to Hostinger's `public_html` directory.
+
+If using Hostinger's Git deployment, use:
+
+- Build command: `npm ci && npm run build`
+- Publish directory: `dist`
