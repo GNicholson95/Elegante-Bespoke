@@ -13,7 +13,7 @@ Elegante Bespoke is a React and Vite website for media walls, bespoke carpentry,
 
 The site is configured for GitHub Pages at:
 
-https://gnicholson95.github.io/Elegante-Bespoke/
+https://elegantebespoke.co.uk/
 
 Deployment runs automatically from `.github/workflows/deploy.yml` whenever changes are pushed to `main`.
 

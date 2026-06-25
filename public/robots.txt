@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gnicholson95.github.io/Elegante-Bespoke/sitemap.xml
+Sitemap: https://elegantebespoke.co.uk/sitemap.xml
