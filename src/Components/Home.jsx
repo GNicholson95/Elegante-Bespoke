@@ -7,6 +7,11 @@ import mediaWallFeatureImage from "../assets/gallery-media-wall-04.jpg";
 import mediaWallFireImage from "../assets/gallery-media-wall-05.jpg";
 import mediaWallTextureImage from "../assets/gallery-media-wall-06.jpg";
 import mediaWallWideImage from "../assets/gallery-media-wall-07.jpg";
+import mediaWallClassicImage from "../assets/gallery-media-wall-08.jpg";
+import mediaWallLitShelvingImage from "../assets/gallery-media-wall-09.jpg";
+import mediaWallCabinetImage from "../assets/gallery-media-wall-10.jpg";
+import mediaWallFireplaceImage from "../assets/gallery-media-wall-11.jpg";
+import mediaWallDetailFireplaceImage from "../assets/gallery-media-wall-12.jpg";
 import fittedFurnitureImage from "../assets/gallery-fitted-furniture-01.jpeg";
 import venetianShowcaseImage from "../assets/gallery-venetian-detail-01.jpg";
 import venetianImage from "../assets/gallery-venetian-finish-02.jpg";
@@ -66,6 +71,26 @@ const Home = () => {
     {
       src: mediaWallWideImage,
       alt: "Wide view of a bespoke media wall installation",
+    },
+    {
+      src: mediaWallClassicImage,
+      alt: "Classic media wall with oak shelving and fireplace",
+    },
+    {
+      src: mediaWallLitShelvingImage,
+      alt: "Media wall with warm illuminated oak shelving",
+    },
+    {
+      src: mediaWallCabinetImage,
+      alt: "White media wall with inset fireplace and storage cabinets",
+    },
+    {
+      src: mediaWallFireplaceImage,
+      alt: "Media wall with feature fireplace and framed television",
+    },
+    {
+      src: mediaWallDetailFireplaceImage,
+      alt: "Close-up media wall with inset television and fireplace",
     },
     {
       src: fittedFurnitureImage,
